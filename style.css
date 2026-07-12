@@ -130,6 +130,17 @@ body {
     background: #111;
 }
 
+.copyrights{
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    padding: 10px 0;
+    color: #b4074f;
+    color: #fdffff;
+    background: #1a6949;
+    font-size: large;
+
+}
 @media(max-width:768px) {
 
     .container h1 {
