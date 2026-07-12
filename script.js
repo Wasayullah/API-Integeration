@@ -7,6 +7,8 @@ fetch('https://jsonplaceholder.typicode.com/users')
 )
 .then(
     (user)=>{
+        user.forEach((users)=>{
+            
         getUser.innerHTML+=`
         <div class='child'>
             <p>Id: <span class="value">${users.id}</span></p>
@@ -15,7 +17,8 @@ fetch('https://jsonplaceholder.typicode.com/users')
             <p>Email: <span class="value">${users.email}</span></p>
         </div>
         `
-    }
+    })
+}
 )
 .catch(
     (err)=>{
