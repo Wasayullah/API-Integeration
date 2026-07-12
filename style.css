@@ -7,11 +7,35 @@
     text-align: center;
     height: 100vh;
     background-color: yellow;
+    font-family: poppins;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .main{
     background-color: aqua;
     height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#users{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 .child{
-    background-color: red;
+    border: 2px groove black;
+    border-radius: 10px;
+    background-color: rgb(23, 216, 32);
+    padding: 20px;
+    text-align: justify;
+}
+.value{
+    /* color: white; */
+    text-decoration:underline;
 }
