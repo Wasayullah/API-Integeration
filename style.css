@@ -55,10 +55,20 @@ body {
     font-size: 3rem;
     font-weight: 700;
     letter-spacing: 2px;
-    margin-bottom: 40px;
     text-shadow:
         0 0 10px cyan,
         0 0 20px #00e5ff;
+}
+.container >span{
+    display: inline-block;
+    font-weight:300;
+    color: #00e5ff;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-shadow:
+        0 0 10px cyan,
+        0 0 20px #00e5ff;
+    margin-bottom: 40px;
 }
 
 .main {
